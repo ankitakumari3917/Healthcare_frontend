@@ -28,69 +28,33 @@ function Hospital() {
         </div>
       </div>
       {/* first */}
-      <div className=" bg-[#000038]  py-[100px] mx-auto">
-        <div className="text-center">
-
-          
-          <h3 className="text-white font-bold text-5xl py-[20px]">
-            BOOK N MEET A DOCTOR !
-          </h3>
-          <ReactTyped
-            className="bg-white text-2xl font-bold"
-            strings={[
-              "Prevention of yesterday",
-              "Awareness today",
-              "healthier tomorrow",
-            ]}
-            typespeed={100}
-            loop={true}
-            backSpeed={100}
-          />
-          <p className="text-white py-[10px] font-semibold">
-            India's best online appointement scheduling platform
-          </p>
-          <div className="flex gap-5 justify-center py-[30px]">
-            <div className="rounded-xl border-solid border-4 border-[#f3f3f7]">
-              <select name="State" className="h-10 ">
-                <option value>State</option>
-                <option value="B"> Bihar</option>
-                <option value="D">Delhi</option>
-                <option value="UP">Uttar Pradesh</option>
-                <option value="WB">West Bengal</option>
-                <option value="J">Jharkhand</option>
-                <option value="R">Rajsthan</option>
-                <option value="MP">Madhya Pradesh</option>
-                <option value="AP"></option>
-                <option value="AP"></option>
-                <option value="AP"></option>
-                <option value="AP"></option>
-              </select>
-            </div>
-            <div className="rounded-xl border-solid border-4 border-[#f3f3f7]">
-              <input
-                placeholder="Doctor/specialization"
-                type="text"
-                className="h-10 "
-              ></input>
-              <button className="bg-[#59faf5] h-10 rounded-l ">Search</button>
-            </div>
-          </div>
-        </div>  
-        <div className="flex mx-auto ">
-          <div className=" w-[200px] h-[200px] p-5 gap-10 flex-row hidden ">
-            <img src="../src/assets/c2.jpg" alt="" className="rounded-xl border-solid border-4 border-[#f3f3f7]" />
-            <img src="../src/assets/c3.jpg" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]"/>
-            <img src="../src/assets/c4.webp" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]"/>
-            <img src="../src/assets/c1.avif" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]"/>
-            <img src="../src/assets/c5.jpg" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]" />
-            <img src="../src/assets/c6.avif" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]"/>
-            <img src="../src/assets/c7.avif" alt=""  className="rounded-xl border-solid border-4 border-[#f3f3f7]"/>
-                
-          </div>
-        </div>
+      <div>
+    <Slider {...settings}>
+     
+      <div>
+      <img src="../src/assets/hos1.jpg" />
+      </div>
+      <div>
+      <img src="../src/assets/hos2.jpg" />
+      </div>
+      <div>
+      <img src="../src/assets/hos3.jpg" />
+      </div>
+      <div>
+      <img src="../src/assets/hos4.jpg" />
+      </div>
+      <div>
+      <img src="../src/assets/hos5.jpg" />
+      </div>
+      <div>
+      <img src="../src/assets/hos6.jpg" />
+      </div>
+    </Slider>
+  </div>
+        
 
         {/* second */}
-      </div>
+     
       <div>
         <Hospital_Categorie />
       </div>
