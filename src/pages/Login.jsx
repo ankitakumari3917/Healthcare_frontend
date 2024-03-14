@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 
 function Login() {
  
-  const loginUrl = "http://localhost:3000/login";
+  const loginUrl = "https://healthcare-backend-y3zn.onrender.com/login";
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");

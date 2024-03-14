@@ -1,0 +1,140 @@
+{
+  "routes":[
+    {
+      "src":"/home",
+      "dest":"/"
+  },
+      {
+          "src":"/appointments",
+          "dest":"/"
+      },
+     
+    {
+      "src":"/header",
+      "dest":"/"
+  },
+  {
+    "src":"/login",
+    "dest":"/"
+},
+{
+  "src":"/about",
+  "dest":"/"
+},
+{
+  "src":"/register",
+  "dest":"/"
+},
+{
+  "src":"/hospital",
+  "dest":"/"
+},
+{
+  "src":"/book",
+  "dest":"/"
+},
+{
+  "src":"/doctor",
+  "dest":"/"
+},
+{
+  "src":"/sections",
+  "dest":"/"
+},
+{
+  "src":"/services",
+  "dest":"/"
+},
+{
+  "src":"/cardio",
+  "dest":"/"
+},
+{
+  "src":"/physician",
+  "dest":"/"
+},
+{
+  "src":"/dietcian",
+  "dest":"/"
+},
+{
+  "src":"/surgeon",
+  "dest":"/"
+},
+{
+  "src":"/dentist",
+  "dest":"/"
+},
+{
+  "src":"/psychiatrist",
+  "dest":"/"
+},
+{
+  "src":"/pediatrician",
+  "dest":"/"
+},
+{
+  "src":"/ophthalmologist",
+  "dest":"/"
+},
+{
+  "src":"/neurologist",
+  "dest":"/"
+},
+{
+  "src":"/gynecologist",
+  "dest":"/"
+},
+{
+  "src":"/dermatologist",
+  "dest":"/"
+},
+{
+  "src":"/categories",
+  "dest":"/"
+},
+{
+  "src":"/otolaryngologist",
+  "dest":"/"
+},
+{
+  "src":"/hospital_categorie",
+  "dest":"/"
+},
+{
+  "src":"/appoint",
+  "dest":"/"
+},
+{
+  "src":"/paras",
+  "dest":"/"
+},
+{
+  "src":"/igims",
+  "dest":"/"
+},
+{
+  "src":"/aiims",
+  "dest":"/"
+},
+{
+  "src":"/jagdish",
+  "dest":"/"
+},
+{
+  "src":"/medanta",
+  "dest":"/"
+},
+{
+  "src":"/ford",
+  "dest":"/"
+},
+{
+  "src":"/section",
+  "dest":"/"
+}
+
+  
+  
+  ]
+}

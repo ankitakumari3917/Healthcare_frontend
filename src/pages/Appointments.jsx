@@ -11,7 +11,7 @@ function Appointments() {
   const getAppointments = () => {
     setLoading(true);
     try {
-      fetch(`http://localhost:3000/get-appointments?email=${email}`)
+      fetch(`https://healthcare-backend-y3zn.onrender.com/get-appointments?email=${email}`)
         .then((response) => {
           return response.json();
         })

@@ -5,7 +5,7 @@ import React, { useState } from "react";
 import { Link} from "react-router-dom";
 
 function Register() {
-  const registerUrl = "http://localhost:3000/register";
+  const registerUrl = "https://healthcare-backend-y3zn.onrender.com/register";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");

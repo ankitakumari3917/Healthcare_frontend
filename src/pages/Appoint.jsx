@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { notifications } from "@mantine/notifications";
 
 function Appoint() {
-  const appointUrl = "http://localhost:3000/appoint";
+  const appointUrl = "https://healthcare-backend-y3zn.onrender.com/appoint";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [dob, setDob] = useState("");
