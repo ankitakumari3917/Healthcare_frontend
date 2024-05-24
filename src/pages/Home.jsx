@@ -6,6 +6,9 @@ import { Link, useNavigate } from "react-router-dom";
 import Findandbook from "../Components/Book/Findandbook";
 import Component from "./Doctor/Component";
 
+import img from "../assets/location.png";
+import img1 from "../assets/know.png";
+import img2 from "../assets/appoint.png";
 function Home() {
   const [searchInput, setIn] = useState();
   const navigate = useNavigate();
@@ -64,7 +67,7 @@ function Home() {
          
           <div className="bg-white ml-20  rounded-lg m-3 h-[350px] w-[300px] ">
             <div className=" ">
-              <img src="../src/assets/location.png" className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
+              <img src={img} className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
             </div>
             <h3 className="font-semibold text-xl text-[#3f89f7] mt-10">
               Find a Doctor
@@ -84,7 +87,7 @@ function Home() {
 
           <div className="bg-white ml-20  rounded-lg m-3 h-[350px] w-[300px] ">
             <div>
-              <img src="../src/assets/know.png " className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
+              <img src={img1} className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
             </div>
             <h3 className="font-semibold text-xl text-[#3f89f7] mt-10">
               Know Your Doctors
@@ -104,7 +107,7 @@ function Home() {
           </div>
           <div className="bg-white ml-20  rounded-lg m-3  h-[350px] w-[300px] ">
             <div>
-              <img src="../src/assets/appoint.png" className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
+              <img src={img2} className=" h-[100px] w-[100px]  mr-auto ml-auto"></img>
             </div>
             <h3 className="font-semibold text-xl text-[#3f89f7] mt-10">
               Book Appointment

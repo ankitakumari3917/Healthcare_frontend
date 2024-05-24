@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-
+import logo from '../../assets/logo.png'
 function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -14,7 +14,7 @@ function Header() {
         <div className="flex-shrink-0 flex-row">
           <div className="gap-2 flex">
             {" "}
-            <img className="w-12 h-12" src="../src/assets/logo.png"></img>
+            <img className="w-12 h-12" src={logo}></img>
             <div className="text-3xl font-bold">Healthcare</div>
           </div>
         </div>

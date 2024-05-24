@@ -106,6 +106,9 @@ function Findandbook() {
             Book Now
           </button>
         </div>
+
+
+
       </div>
       <div className="  bg-white rounded-xl m-10 border-black border-2 hover:bg-[#018ABE] hover:border-2 hover:text-white hover:border-white ">
         <div className="m-10 flex flex-col ">
@@ -131,14 +134,14 @@ function Findandbook() {
           </select>
           <div className="flex">
             <button
-              className="bg-[#47f8e0] h-12 rounded-2xl text-xl mx-5 px-8  border-black border-2 text-bold  hover:border-white hover:border-2  hover:bg-[#000038] "
+              className="bg-[#47f8e0] border-2 border-black text-bold h-12 rounded-2xl text-xl  hover:border-white hover:border-4  hover:bg-[#000038] mr-5 p-2  pr-10 pl-10"
               onClick={submitdoc}
             >
               Search
             </button>
             <Link to="/doctor">
-              <button className="bg-[#47f8e0] h-12 rounded-2xl text-xl mx-5 px-5  border-black border-2 text-bold  hover:border-white hover:border-2  hover:bg-[#000038]  ">
-                All Doctor
+              <button className="bg-[#47f8e0] border-2 border-black text-bold h-12 rounded-2xl text-xl  hover:border-white hover:border-4  hover:bg-[#000038] p-2 pr-10 pl-10 ">
+                Doctors
               </button>
             </Link>
           </div>

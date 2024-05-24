@@ -6,6 +6,7 @@ import { Link, useNavigate } from "react-router-dom";
 import img2 from '../assets/hospital.jpg';
 import img3 from '../assets/password.png';
 import img4 from '../assets/email.png';
+import img5 from '../assets/phone.jpg';
 
 function Login() {
  
@@ -78,7 +79,7 @@ function Login() {
             
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src={img3}
+                  src={img4}
                   alt=""
                   className="w-6 rounded-full "
                 ></img>
@@ -111,7 +112,7 @@ function Login() {
             <div className="relative"> 
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src="../src/assets/phone.jpg"
+                  src={img5}
                   alt=""
                   className="w-6 rounded-full"
                 ></img>
