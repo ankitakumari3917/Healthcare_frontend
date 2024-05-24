@@ -4,6 +4,16 @@ import React, { useState } from "react";
 
 import { Link} from "react-router-dom";
 
+
+import img1 from '../assets/hospital.jpg';
+import img2 from '../assets/person.png';
+import img3 from '../assets/email.png';
+import img4 from '../assets/gender.png';
+
+import img6 from '../assets/password.png';
+import img7 from '../assets/phone.jpg';
+
+
 function Register() {
   const registerUrl = "https://healthcare-backend-y3zn.onrender.com/register";
   const [name, setName] = useState("");
@@ -74,7 +84,7 @@ function Register() {
       <div className="bg-[#ffffff] flex items-center justify-center h-screen">
         <div className="max-w-[960px]  bg-[#000038] p-5 rounded-2xl grid grid-cols-2 gap-20">
           <div className="relative h-auto">
-            <img src="src/assets/hospital.jpg" alt="" />
+            <img src={img1} alt="" />
           </div>
           <div className="max-w-80">
             <h1 className="text-3xl  font-bold text-white">
@@ -85,7 +95,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/person.png"
+                    src={img2}
                     alt=""
                     className="w-6 rounded-full "
                   ></img>
@@ -101,7 +111,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/email.png"
+                    src={img3}
                     alt=""
                     className="w-6 rounded-full "
                   ></img>
@@ -117,7 +127,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/gender.png"
+                    src={img4}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -139,7 +149,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/dob.png"
+                    src={img2}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -160,7 +170,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/password.png"
+                    src={img6}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -177,7 +187,7 @@ function Register() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/phone.jpg"
+                    src={img7}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>

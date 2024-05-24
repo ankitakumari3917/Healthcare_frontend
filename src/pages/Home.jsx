@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { ReactTyped } from "react-typed";
 import { FaCircleArrowRight } from "react-icons/fa6";
 import { Link, useNavigate } from "react-router-dom";
-import About from "../Components/About/About";
+
 import Findandbook from "../Components/Book/Findandbook";
 import Component from "./Doctor/Component";
 

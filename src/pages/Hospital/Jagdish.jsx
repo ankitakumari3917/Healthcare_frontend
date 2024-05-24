@@ -2,6 +2,13 @@ import Slider from "react-slick";
 import React from "react";
 import { Link } from "react-router-dom";
 
+import icn from '../../assets/hos1.jpg';
+import icn1 from '../../assets/hos2.jpg';
+import icn2 from '../../assets/hos3.jpg';
+import icn3 from '../../assets/hos4.jpg';
+import icn4 from '../../assets/hos5.jpg';
+import icn5 from '../../assets/hos6.jpg';
+import icn6 from '../../assets/doctoricon.png';
 
 function Jagdish() {
   const settings = {
@@ -19,23 +26,23 @@ function Jagdish() {
  <div>
     <Slider {...settings}>
      
-      <div>
-      <img src="../src/assets/hos1.jpg" />
+    <div>
+      <img src={icn} />
       </div>
       <div>
-      <img src="../src/assets/hos2.jpg" />
+      <img src={icn1} />
       </div>
       <div>
-      <img src="../src/assets/hos3.jpg" />
+      <img src={icn2} />
       </div>
       <div>
-      <img src="../src/assets/hos4.jpg" />
+      <img src={icn3} />
       </div>
       <div>
-      <img src="../src/assets/hos5.jpg" />
+      <img src={icn4} />
       </div>
       <div>
-      <img src="../src/assets/hos6.jpg" />
+      <img src={icn5} />
       </div>
     </Slider>
   </div>
@@ -48,7 +55,7 @@ function Jagdish() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={icn6}
                 alt=""
               />
             </div>
@@ -73,7 +80,7 @@ function Jagdish() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={icn6}
                 alt=""
               />
             </div>
@@ -103,7 +110,7 @@ function Jagdish() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={icn6}
                 alt=""
               />
             </div>
@@ -128,7 +135,7 @@ function Jagdish() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={icn6}
                 alt=""
               />
             </div>

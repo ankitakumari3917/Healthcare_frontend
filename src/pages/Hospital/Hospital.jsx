@@ -2,6 +2,12 @@ import Slider from "react-slick";
 import React, { useState } from "react";
 import { ReactTyped } from "react-typed";
 import { Link, useNavigate } from "react-router-dom";
+import icn from '../../assets/hos1.jpg';
+import icn1 from '../../assets/hos2.jpg';
+import icn2 from '../../assets/hos3.jpg';
+import icn3 from '../../assets/hos4.jpg';
+import icn4 from '../../assets/hos5.jpg';
+import icn5 from '../../assets/hos6.jpg';
 
 
 import Hospital_Categorie from "./Hospital_Categories";
@@ -32,22 +38,22 @@ function Hospital() {
     <Slider {...settings}>
      
       <div>
-      <img src="../src/assets/hos1.jpg" />
+      <img src={icn} />
       </div>
       <div>
-      <img src="../src/assets/hos2.jpg" />
+      <img src={icn1} />
       </div>
       <div>
-      <img src="../src/assets/hos3.jpg" />
+      <img src={icn2} />
       </div>
       <div>
-      <img src="../src/assets/hos4.jpg" />
+      <img src={icn3} />
       </div>
       <div>
-      <img src="../src/assets/hos5.jpg" />
+      <img src={icn4} />
       </div>
       <div>
-      <img src="../src/assets/hos6.jpg" />
+      <img src={icn5} />
       </div>
     </Slider>
   </div>

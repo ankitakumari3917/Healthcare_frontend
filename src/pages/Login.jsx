@@ -3,6 +3,10 @@ import { notifications } from "@mantine/notifications";
 import "./Register.jsx"
 import { Link, useNavigate } from "react-router-dom";
 
+import img2 from '../assets/hospital.jpg';
+import img3 from '../assets/password.png';
+import img4 from '../assets/email.png';
+
 function Login() {
  
   const loginUrl = "https://healthcare-backend-y3zn.onrender.com/login";
@@ -64,7 +68,7 @@ function Login() {
        
       <div className="max-w-[960px] bg-[#000038] p-5 rounded-2xl grid grid-cols-2 gap-20">
         <div className="relative">
-          <img src="src/assets/hospital.jpg" alt="" />
+          <img src={img2} alt="" />
         </div>
         <div className="max-w-80">
           <h1 className="text-2xl  font-bold text-white">LOGIN YOUR ACCOUNT </h1>
@@ -74,7 +78,7 @@ function Login() {
             
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src="../src/assets/email.png"
+                  src={img3}
                   alt=""
                   className="w-6 rounded-full "
                 ></img>
@@ -90,7 +94,7 @@ function Login() {
             <div className="relative">
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src="../src/assets/password.png"
+                  src={img3}
                   alt=""
                   className="w-6 rounded-full"
                 ></img>

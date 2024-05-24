@@ -3,6 +3,21 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import dietitianImage from "../../assets/dietitian.jpg";
+
+import cardioI from '../../assets/cardiologist.avif';
+import gyneI from "../../assets/gynecologist.avif";
+import phyI from "../../assets/psychiatrist.avif";
+import physI from "../../assets/physician.avif";
+import opthI from "../../assets/ophthalmologist.avif";
+import surI from "../../assets/surgeon.avif";
+import otoI from "../../assets/otolaryngologist.avif";
+import derI from "../../assets/dermatologist.avif";
+import pediI from "../../assets/pediatrician.jpg";
+import dentI from "../../assets/dentist.avif";
+import neurI from "../../assets/neurologist.avif";
+
+
 import { Link } from "react-router-dom";
 
 function Categories() {
@@ -61,7 +76,7 @@ function Categories() {
 const data = [
   {
     name: ` Cardiologist`,
-    img: ` ../src/assets/cardiologist.avif`,
+    img: cardioI,
     but: (
       <Link to="/cardio">
         <button>Book Appointment</button>
@@ -70,7 +85,7 @@ const data = [
   },
   {
     name: `Gynecologist`,
-    img: `../src/assets/gynecologist.avif`,
+    img: gyneI,
     but: (
       <Link to="/gynecologist">
         <button>Book Appointment</button>
@@ -79,7 +94,7 @@ const data = [
   },
   {
     name: `Psychiatrist`,
-    img: `../src/assets/psychiatrist.avif`,
+    img: phyI,
     but: (
       <Link to="/psychiatrist">
         <button>Book Appointment</button>
@@ -88,7 +103,7 @@ const data = [
   },
   {
     name: `Dietitian`,
-    img: `../src/assets/dietitian.jpg`,
+    img:  dietitianImage  ,
     but: (
       <Link to="/dietitian">
         <button>Book Appointment</button>
@@ -97,7 +112,7 @@ const data = [
   },
   {
     name: `Physician`,
-    img: ` ../src/assets/physician.avif`,
+    img: physI,
     but: (
       <Link to="/physician">
         <button>Book Appointment</button>
@@ -106,7 +121,7 @@ const data = [
   },
   {
     name: `Ophthalmologist`,
-    img: `../src/assets/ophthalmologist.avif `,
+    img: opthI,
     but: (
       <Link to="/ophthalmologist">
         <button>Book Appointment</button>
@@ -115,7 +130,7 @@ const data = [
   },
   {
     name: `Surgeon`,
-    img: ` ../src/assets/surgeon.avif`,
+    img: surI,
     but: (
       <Link to="/surgeon">
         <button>Book Appointment</button>
@@ -124,7 +139,7 @@ const data = [
   },
   {
     name: `Otolaryngologist`,
-    img: ` ../src/assets/otolaryngologist.avif`,
+    img: otoI,
     but: (
       <Link to="/otolaryngologist">
         <button>Book Appointment</button>
@@ -133,7 +148,7 @@ const data = [
   },
   {
     name: `dermatologist`,
-    img: ` ../src/assets/dermatologist.avif`,
+    img: derI,
     but: (
       <Link to="/dermatologist">
         <button>Book Appointment</button>
@@ -142,7 +157,7 @@ const data = [
   },
   {
     name: `Pediatrician`,
-    img: ` ../src/assets/pediatrician.jpg`,
+    img: pediI,
     but: (
       <Link to="/pediatrician">
         <button>Book Appointment</button>
@@ -151,7 +166,7 @@ const data = [
   },
   {
     name: `Dentist`,
-    img: ` ../src/assets/dentist.avif`,
+    img: dentI,
     but: (
       <Link to="/dentist">
         <button>Book Appointment</button>
@@ -160,7 +175,7 @@ const data = [
   },
   {
     name: `Neurologist`,
-    img: ` ../src/assets/neurologist.avif`,
+    img: neurI,
     but: (
       <Link to="/neurologist">
         <button>Book Appointment</button>

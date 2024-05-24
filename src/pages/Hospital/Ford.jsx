@@ -1,7 +1,13 @@
 import Slider from "react-slick";
 import React from "react";
 import { Link } from "react-router-dom";
-
+import mImg from "../../assets/hos1.jpg";
+import mImg1 from "../../assets/hos2.jpg";
+import mImg2 from "../../assets/hos3.jpg";
+import mImg3 from "../../assets/hos4.jpg";
+import mImg4 from "../../assets/hos5.jpg";
+import mImg5 from "../../assets//hos6.jpg";
+import mImg6 from "../../assets//doctoricon.png";
 function Ford() {
   const settings = {
     dots: true,
@@ -19,22 +25,22 @@ function Ford() {
     <Slider {...settings}>
      
       <div>
-      <img src="../src/assets/hos1.jpg" />
+      <img src={mImg} />
       </div>
       <div>
-      <img src="../src/assets/hos2.jpg" />
+      <img src={mImg1} />
       </div>
       <div>
-      <img src="../src/assets/hos3.jpg" />
+      <img src={mImg2} />
       </div>
       <div>
-      <img src="../src/assets/hos4.jpg" />
+      <img src={mImg3} />
       </div>
       <div>
-      <img src="../src/assets/hos5.jpg" />
+      <img src={mImg4} />
       </div>
       <div>
-      <img src="../src/assets/hos6.jpg" />
+      <img src={mImg5}/>
       </div>
     </Slider>
   </div>
@@ -47,7 +53,7 @@ function Ford() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg6}
                 alt=""
               />
             </div>
@@ -72,7 +78,7 @@ function Ford() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg6}
                 alt=""
               />
             </div>
@@ -102,7 +108,7 @@ function Ford() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg6}
                 alt=""
               />
             </div>
@@ -127,7 +133,7 @@ function Ford() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg6}
                 alt=""
               />
             </div>

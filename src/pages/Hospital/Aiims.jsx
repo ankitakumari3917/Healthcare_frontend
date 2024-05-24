@@ -1,6 +1,12 @@
 import Slider from "react-slick";
 import React from "react";
 import { Link } from "react-router-dom";
+import mImg from "../../assets/aiims2.jpg";
+import mImg1 from "../../assets/aiims3.jpg";
+import mImg2 from "../../assets/aiims4.jpg";
+import mImg3 from "../../assets/aiims5.jpg";
+import mImg4 from "../../assets/aiims6.jpg";
+import mImg5 from "../../assets/doctoricon.png";
 
 function Aiims() {
   const settings = {
@@ -18,19 +24,19 @@ function Aiims() {
       <div className="w-full h-auto">
         <Slider {...settings}>
           <div>
-            <img src="../src/assets/aiims2.jpg" />
+            <img src={mImg}/>
           </div>
           <div>
-            <img src="../src/assets/aiims3.jpg" />
+            <img src={mImg1} />
           </div>
           <div>
-            <img src="../src/assets/aiims4.jpg" />
+            <img src={mImg2} />
           </div>
           <div>
-            <img src="../src/assets/aiims5.jpg" />
+            <img src={mImg3} />
           </div>
           <div>
-            <img src="../src/assets/aiims6.jpg" />
+            <img src={mImg4}/>
           </div>
         </Slider>
      
@@ -44,7 +50,7 @@ function Aiims() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg5}
                 alt=""
               />
             </div>
@@ -69,7 +75,7 @@ function Aiims() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg5}
                 alt=""
               />
             </div>
@@ -99,7 +105,7 @@ function Aiims() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg5}
                 alt=""
               />
             </div>
@@ -124,7 +130,7 @@ function Aiims() {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg5}
                 alt=""
               />
             </div>

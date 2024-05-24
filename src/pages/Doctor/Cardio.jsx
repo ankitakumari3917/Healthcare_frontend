@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import mImg from "../../assets/doctoricon.png";
+
 
 function Cardio({show}) {
   return (
@@ -13,6 +15,7 @@ function Cardio({show}) {
             <h4 className="text-gray-400">~Cardiologist</h4>
           </div>
         </div>}
+
         <div className="flex align-middle items-center justify-center p-10 bg-blue-200">
           <h1 className="text-3xl font-bold text-blue-700">
             Best Cardiologists In India
@@ -23,10 +26,8 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
-                alt=""
-                
-              />
+                src={mImg}
+                 />
             </div>
             <div class="flex flex-col justify-between p-4 leading-normal md:row">
               <div class="uppercase tracking-wide text-xl text-indigo-500 font-semibold">
@@ -49,7 +50,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -80,7 +81,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -109,7 +110,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -143,7 +144,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -172,7 +173,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -231,7 +232,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -262,7 +263,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -290,7 +291,7 @@ function Cardio({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"

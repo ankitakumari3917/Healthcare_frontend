@@ -1,10 +1,12 @@
 import React from "react";
+// import React, { useState } from 'react';
 import { Link } from "react-router-dom";
 import Categories from "./Categories";
-
+// import servicesImage from '../../assets/services.jpg';
 import Categories1 from "../Hospital/Hospital_Categories";
 
 const Services = () => {
+  // const [bgImage, setBgImage] = useState(servicesImage);
   return (
     <>
       <div className="">
@@ -19,6 +21,7 @@ const Services = () => {
             </div>
           </div>
           {/* front layout */}
+          {/* <div style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center', height: '100vh' }}> */}
           <div className="bg-[url('../src/assets/services.jpg')]">
             <div className="px-10 ">
               <div className="flex flex-col lg:flex-row gap-[90px] items-center justify-between">

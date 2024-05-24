@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import { notifications } from "@mantine/notifications";
-
+import img1 from '../assets/person.png';
+import img2 from '../assets/email.png';
+import img3 from '../assets/phone.jpg';
+import img4 from '../assets/time.jpg';
+import img5 from '../assets/category.jpg';
+import img6 from '../assets/problem.jpg';
+import img7 from '../assets/address.jpg';
 function Appoint() {
   const appointUrl = "https://healthcare-backend-y3zn.onrender.com/appoint";
   const [name, setName] = useState("");
@@ -85,7 +91,7 @@ function Appoint() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/person.png"
+                    src={img1}
                     alt=""
                     className="w-6 rounded-full "
                   ></img>
@@ -101,7 +107,7 @@ function Appoint() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/email.png"
+                    src={img2}
                     alt=""
                     className="w-6 rounded-full "
                   ></img>
@@ -119,7 +125,7 @@ function Appoint() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/phone.jpg"
+                    src={img3}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -136,7 +142,7 @@ function Appoint() {
               <div className="relative">
                 <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/time.jpg"
+                    src={img4}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -156,7 +162,7 @@ function Appoint() {
               <div className="relative">
                 <div className="absolute top-1 left-1 text-white bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                   <img
-                    src="../src/assets/category.jpg"
+                    src={img5}
                     alt=""
                     className="w-6 rounded-full"
                   ></img>
@@ -201,7 +207,7 @@ function Appoint() {
             <div className="relative">
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src="../src/assets/problem.jpg"
+                  src={img6}
                   alt=""
                   className="w-6 rounded-full"
                 ></img>
@@ -218,7 +224,7 @@ function Appoint() {
             <div className="relative">
               <div className="absolute top-1 left-1 bg-white-medium rounded-full p-1 flex items-center justify-center bg-blue-300">
                 <img
-                  src="../src/assets/address.jpg"
+                  src={img7}
                   alt=""
                   className="w-6 rounded-full"
                 ></img>

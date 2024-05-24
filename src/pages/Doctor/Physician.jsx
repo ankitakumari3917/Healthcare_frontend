@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import mImg from "../../assets/doctoricon.png";
 
 function Physician({show}) {
   return (
@@ -23,7 +24,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -51,7 +52,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -82,7 +83,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -111,7 +112,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -145,7 +146,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -174,7 +175,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -205,7 +206,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -233,7 +234,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -264,7 +265,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
+                src={mImg}
                 alt=""
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
@@ -292,8 +293,7 @@ function Physician({show}) {
             <div class=" md:w-[25%] flex items-center justify-center">
               <img
                 class="object-cover w-full  h-96 md:h-auto md:w-[100px] md:rounded-full flex items-center justify-center"
-                src="../src/assets/doctoricon.png"
-                alt=""
+                src={mImg}
                 // class="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                 // src="../src/assets/doctoricon.png"
                 // alt=""

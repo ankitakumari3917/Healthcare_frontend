@@ -3,6 +3,9 @@ import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+import icon from '../../assets/hospitalicon.png';
+
+
 import { Link } from "react-router-dom";
 
 function Hospital_Categories() {
@@ -61,7 +64,7 @@ function Hospital_Categories() {
 const data = [
   {
     name: "AIIMS",
-    img: `../src/assets/hospitalicon.png`,
+    img: icon,
     but: (
       <Link to="/aiims">
         <button>Book Appointment</button>
@@ -70,7 +73,7 @@ const data = [
   },
   {
     name: "FORD",
-    img: `../src/assets/hospitalicon.png`,
+    img:  icon,
     but: (
       <Link to="/ford">
         <button>Book Appointment</button>
@@ -79,7 +82,7 @@ const data = [
   },
   {
     name: "JAGDISH",
-    img: `../src/assets/hospitalicon.png`,
+    img:  icon,
     but: (
       <Link to="/jagdish">
         <button>Book Appointment</button>
@@ -88,7 +91,7 @@ const data = [
   },
   {
     name: "IGIMS",
-    img: ` ../src/assets/hospitalicon.png`,
+    img: icon,
     but: (
       <Link to="/igims">
         <button>Book Appointment</button>
@@ -97,7 +100,7 @@ const data = [
   },
   {
     name: "MEDANTA",
-    img: `../src/assets/hospitalicon.png `,
+    img: icon,
     but: (
       <Link to="/medanta">
         <button>Book Appointment</button>
@@ -106,7 +109,7 @@ const data = [
   },
   {
     name: "PARAS",
-    img: ` ../src/assets/hospitalicon.png`,
+    img: icon,
     but: (
       <Link to="/paras">
         <button>Book Appointment</button>

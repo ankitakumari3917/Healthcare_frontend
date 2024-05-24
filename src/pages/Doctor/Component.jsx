@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import mImg from "../../assets/d1.jpg";
+import mImg1 from "../../assets/dd1.jpg";
 function Component() {
   return (
     <div className="bg-[#000038]">
@@ -10,7 +11,7 @@ function Component() {
       <div className="flex">
         <div className="px-[100px] pt-[60px]">
           <img
-            src="../src/assets/d1.jpg"
+            src= {mImg}
             className="h-[400px] w-[300px] rounded-xl"
           ></img>
         </div>
@@ -38,7 +39,7 @@ function Component() {
       <div className="flex">
       <div className="px-[100px] pt-[30px]">
         <img
-          src="../src/assets/dd1.jpg"
+          src={mImg1}
           className="h-[400px] w-[300px] rounded-xl"
         ></img>
       </div>

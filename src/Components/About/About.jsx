@@ -1,7 +1,7 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
-
+import myImage from "../../assets/c7.avif";
 function About() {
   return (
     <div className=" my-0">
@@ -46,7 +46,7 @@ function About() {
       </div>
       <div className="flex md:flex-row flex-col bg-white ">
         <div className="md:w-[40%]">
-          <img className="" src="../src/assets/c7.avif" alt="" />
+          <img className="" src={myImage} alt="" />
         </div>
         <div className="md:w-[60%]">
           <div className=" mx-10 flex flex-col">
